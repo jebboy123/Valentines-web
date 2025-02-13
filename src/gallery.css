@@ -1,0 +1,134 @@
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+}
+audio { display:none;}
+onScene {
+    background: transparent !important; /* Forces transparency */
+ }
+ img {
+    background: transparent;
+ }
+
+
+.slider{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    animation: rotate 30s linear infinite;
+}
+.sliderPause{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    animation: rotate 30s linear infinite;
+    animation-play-state: paused;
+}
+
+
+@keyframes rotate{
+    0%{
+        transform:perspective(1000px) rotateY(360deg);
+    }
+    100%{
+        transform:perspective(1000px) rotateY(0deg);
+    }
+}
+.slider span{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: rotateY(calc(var(--i)*45deg))translateZ(350px);
+
+
+}
+
+.slider span img{
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+    transition: 2s;
+}
+.sliderPause span{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: rotateY(calc(var(--i)*45deg))translateZ(350px);
+
+
+}
+
+.sliderPause span img{
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: s;
+}
+
+.notzoomed{
+    transition: transform 0.2s ease;
+  }
+  
+  /* Zoom animation */
+.zoomed {
+    transform: scale(1.05); 
+   
+  }
+@keyframes horizontal-shaking {
+    0% { transform: translateX(0) }
+    25% { transform: translateX(5px) }
+    50% { transform: translateX(-5px) }
+    75% { transform: translateX(5px) }
+    100% { transform: translateX(0) }
+   }
+   /* Default position (away from the disc) */
+.tone-arm {
+    position: absolute;
+    top: -50px;  /* Adjust based on your layout */
+    left: 150px;  /* Adjust based on your layout */
+    width: 80px;  /* Adjust to fit the disc */
+    transform-origin: top left; 
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  /* Move the tone arm towards the record when playing */
+  .move-arm {
+    transform: rotate(30deg); /* Adjust rotation & position */
+  }
+  .poem {
+    font-style: italic;
+    color: red; /* Change the color to red */
+}
+

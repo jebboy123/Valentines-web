@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Valentines/static/css/main.2c6d740d.css",
+    "main.js": "/Valentines/static/js/main.9c23c1b9.js",
+    "static/js/787.5257f46d.chunk.js": "/Valentines/static/js/787.5257f46d.chunk.js",
+    "static/media/songName.mp3": "/Valentines/static/media/songName.9b2f7e20c435af701bcb.mp3",
+    "static/media/bg.jpg": "/Valentines/static/media/bg.8b59967062ce3372ed06.jpg",
+    "static/media/disc-spinning.gif": "/Valentines/static/media/disc-spinning.a928b273d256fe73188a.gif",
+    "static/media/img6.jpg": "/Valentines/static/media/img6.23f5f62792e0e1ecf05c.jpg",
+    "static/media/img8.jpg": "/Valentines/static/media/img8.c17604a429a3c906a2ac.jpg",
+    "static/media/img1.jpg": "/Valentines/static/media/img1.016e70690e722833f022.jpg",
+    "static/media/img3.jpg": "/Valentines/static/media/img3.46988d876d920ad5d0de.jpg",
+    "static/media/img2.jpg": "/Valentines/static/media/img2.520a6b4d72de16994571.jpg",
+    "static/media/disc.png": "/Valentines/static/media/disc.fe7be6d5405c79eba2ef.png",
+    "static/media/img7.jpg": "/Valentines/static/media/img7.0464e70337ee3726cb1e.jpg",
+    "static/media/img5.jpg": "/Valentines/static/media/img5.a88b2603cef5a72d791d.jpg",
+    "static/media/img4.jpg": "/Valentines/static/media/img4.1ac8a49b87304c0845f2.jpg",
+    "static/media/HVW.png": "/Valentines/static/media/HVW.de9f9cd7ebfffcf9c58c.png",
+    "static/media/tone-arm.png": "/Valentines/static/media/tone-arm.e7beb9eadcdb7ed728ab.png",
+    "static/media/logo.svg": "/Valentines/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Valentines/index.html",
+    "main.2c6d740d.css.map": "/Valentines/static/css/main.2c6d740d.css.map",
+    "main.9c23c1b9.js.map": "/Valentines/static/js/main.9c23c1b9.js.map",
+    "787.5257f46d.chunk.js.map": "/Valentines/static/js/787.5257f46d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c6d740d.css",
+    "static/js/main.9c23c1b9.js"
+  ]
+}
